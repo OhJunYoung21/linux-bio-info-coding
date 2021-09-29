@@ -1,0 +1,12 @@
+user_201713831@class:~$ vi test2.sh
+#!/bin/bash
+var=localvalue
+export var2=globalvalue
+echo ${var}
+echo ${var2}
+echo ${var2//l/_}
+echo $1
+echo -e "gloabal\tvalue"
+echo -e "second\tvalue"
+
+:wq
